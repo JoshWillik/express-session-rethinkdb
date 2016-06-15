@@ -34,7 +34,7 @@ var rdbStore = new RDBStore({
     max: 1000,
     timeout: 20,
     timeoutError: 1000,
-    silent: true
+    silent: false
   },
   table: 'session',
   sessionTimeout: 86400000,
